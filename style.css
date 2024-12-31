@@ -12,6 +12,10 @@ html {
   background: #222048;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .feliz {
   width: 100%;
   font-family: 'Pacifico', cursive;
@@ -247,6 +251,70 @@ footer img {
   height: auto; /* Mantém a proporção da imagem */
 }
 
+@media screen and (max-width: 1440px) {
+  .ano_novo > span {
+    font-size: 150px;
+  }
+
+  span.seis {
+    margin-right: -180px;
+  }
+
+  span.sete {
+    margin-right: -200px;
+  }
+
+  .balao {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .ano_novo > span {
+    font-size: 120px;
+  }
+
+  span.seis {
+    margin-right: -150px;
+  }
+
+  span.sete {
+    margin-right: -170px;
+  }
+
+  .balao {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .ano_novo {
+    padding: 100px 50px 0 0;
+  }
+
+  .ano_novo > span {
+    font-size: 100px;
+  }
+
+  span.seis {
+    margin-right: -120px;
+  }
+
+  span.sete {
+    margin-right: -130px;
+  }
+
+  .balao {
+    width: 60px;
+    height: 60px;
+  }
+
+  .feliz {
+    font-size: 80px;
+  }
+}
 
 @keyframes vem_2017 {
   0% {
